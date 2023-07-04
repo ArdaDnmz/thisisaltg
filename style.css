@@ -1,16 +1,38 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Kanit-Regular;
+    src: url(fonts/Kanit-Regular.ttf);
+}
+
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(250, 235, 215);
 }
 #baslik{
+    font-family: Kanit-Regular, Poppins-Regular;
     color: rgb(123, 0, 123);
     background-color: gray;
     text-align: center;
 }
 #sez{
+    font-family: Roboto-Regular, Poppins-Regular;
     background-color: rgb(210, 182, 144);
     border: 4px;
     border-style: double;
+}
+#icerik{
+    margin-left: 20px;
+    font-family: "Lucida Sans Unicode", OpenSans-Regular, Poppins-Regular;
 }
 #htarih{
     color: rgb(159, 0, 0);
