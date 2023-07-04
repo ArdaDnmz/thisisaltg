@@ -25,6 +25,7 @@ body{
     text-align: center;
 }
 #sez{
+    margin-left: 5px;
     font-family: Roboto-Regular, Poppins-Regular;
     background-color: rgb(210, 182, 144);
     border: 4px;
