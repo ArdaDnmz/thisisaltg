@@ -31,7 +31,7 @@ body{
     border: 4px;
     border-style: double;
 }
-#icerik{
+.icerik{
     margin-left: 20px;
     font-family: "Lucida Sans Unicode", OpenSans-Regular, Poppins-Regular;
 }
