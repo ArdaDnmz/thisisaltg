@@ -39,24 +39,28 @@ body{
 .icerik{
     margin-left: 20px;
     font-family: "Lucida Sans Unicode", OpenSans-Regular, Poppins-Regular;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-start;
+    display: flex;
+    justify-content: center;
     overflow: hidden; /* Hide any content that exceeds the container's dimensions */
 }
 .ani{
-    width: 30%;
+    width: calc(33.33% - 6px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
     min-width: 600px;
     align-items: center;
     border: 3px solid;
     padding: 5px;
-    margin: 3px;
-    flex-shrink: 0;
+    margin-bottom: 10px;
     box-sizing: border-box;
     position: relative;
-    justify-content: center;
-    overflow: hidden; /* Hide any content that exceeds the box's dimensions */
+    justify-content: flex-start;
     height: auto; /* Remove the fixed height */
 }
 .ani img{
@@ -82,7 +86,6 @@ h2 span{
 }
 @media (max-width: 600px) {
     .ani {
-      width: 100%; /* Set width to 100% on smaller screens */
-      min-width: 0; /* Reset min-width */
+      width: 100%;
     }
   }
